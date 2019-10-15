@@ -1,0 +1,40 @@
+body {
+  background-color: lightblue;
+  color:white;
+  text-align: center;
+}
+
+.score{
+  color:black
+}
+.cell {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.formLine {
+  margin:10px;
+  padding:10px;
+  background-color: cornflowerblue;
+}
+
+.reset-btn {
+  display: none;
+  padding: 10px;
+  margin: 10px;
+  color: black;
+  background-color: lightcoral;
+  margin: 0 auto
+}
+
+.reset-btn:hover{
+  border:2px solid white
+}
+
+.pacman {
+  width: 30px;
+  height: 30px;
+  transform: rotate(90deg);
+}
